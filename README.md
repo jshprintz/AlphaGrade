@@ -31,7 +31,7 @@ On the *View* tabe, you'll see a *Macros* button. By clicking on the button, you
 #### QA Comments
 QA Comments serves as a way to both uniform the grading comments, so that all QAs will be delivering consistent feedback to TRs in a consistent manner, and to allow for quick grading based upon the grading calculator. When running the program, the default is at minor mishear, but the user can select from any of the content or formatting errors. 
 
-![QA Comments](https://i.imgur.com/7TbxoDRb.png)
+![QA Comments](https://i.imgur.com/7TbxoDRl.png)
 
 #### QA Checklist
 QA Checklist works together with QA Comments. It also offers several standalone features. 
