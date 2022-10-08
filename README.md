@@ -53,9 +53,11 @@ Since the TRs are expected to run this macro prior to submitting, when they donâ
 
 #### Post Grade
 After you are finished reviewing the transcript, Post Grade will calculate all of the scoring for you. It will start with the Pre Grade score and then it will subtract all of the major errors and minor errors. It will also work off the following grade system for determining cleared inaudibles/guesses:
-    1-3 = 0
-    4-6 = -0.25
-    over 7 = -0.5
+
+    > 1-3 = 0
+    > 4-6 = -0.25
+    > over 7 = -0.5
+
 (Example: Eight cleared inaudibles would be a deduction of -1.75. Zero deducted for the first three, -0.25 each for inaudibles four, five, and six, and then -0.5 each for seven and eight.)
 
 #### Client Ready
