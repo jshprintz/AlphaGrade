@@ -34,35 +34,36 @@ QA Comments serves as a way to both uniform the grading comments, so that all QA
 #### QA Checklist
 QA Checklist works together with QA Comments. It also offers several standalone features. 
 
-##### Tag Count
+#### Tag Count
 Tag Count will tell you the total number of inaudibles, guesses, crosstalks, foreign tags, and research tags in any file.
 
-##### Pre Grade
+#### Pre Grade
 The TRs are given a macro that serves to clean up their work before submitting. If they fail to use that macro, Pre Grade will essentially do all of those processes and a few more. 
-●	Eliminates instances of two spaces that start a sentence
-●	Replaces straight quotes with curly quotes
-o	Doesn’t change the user’s specified settings
-●	Searches for incorrectly formatted timestamps
-●	Anonymizes your username
-●	Searches for incorrect punctuation
-●	Replaces the following words
-●	Runs bug fixes in the background to correct a common spacing issue that Word creates caused by incorrect borders 
-●	Stores the initial number of inaudibles and guess tags
+- Eliminates instances of two spaces that start a sentence
+- Replaces straight quotes with curly quotes
+- Doesn’t change the user’s specified settings
+- Searches for incorrectly formatted timestamps
+- Anonymizes your username
+- Searches for incorrect punctuation
+- Replaces the following words
+- Runs bug fixes in the background to correct a common spacing issue that Word creates caused by incorrect borders 
+- Stores the initial number of inaudibles and guess tags
+
 Since the TRs are expected to run this macro prior to submitting, when they don’t run it, all changes will be marked against their final score. After running Pre Grade, a dialog box will appear on the right detailing if any points have been deducted. Since the TRs are expected to run their macro, the large majority of the time their score will stay at 100. 
 
-##### Post Grade
+#### Post Grade
 After you are finished reviewing the transcript, Post Grade will calculate all of the scoring for you. It will start with the Pre Grade score and then it will subtract all of the major errors and minor errors. It will also work off the following grade system for determining cleared inaudibles/guesses:
     1-3 = 0
     4-6 = -0.25
     over 7 = -0.5
 (Example: Eight cleared inaudibles would be a deduction of -1.75. Zero deducted for the first three, -0.25 each for inaudibles four, five, and six, and then -0.5 each for seven and eight.)
 
-##### Client Ready
+#### Client Ready
 The Client Ready macro is designed to prepare a document to be ready for submission to the client. Client Ready is to be used after the split is uploaded and graded. Client Ready performs a number of functions:
-●	Accepts all edits and turns off trackchanges
-●	Deletes all comments
-●	Runs spellcheck
-●	Reverts username back to original setting
-●	Ensures that there are no research tags left in the document
-o	If there are, it alerts you that there are still research tags and that the file is not ready yet.
+- Accepts all edits and turns off trackchanges
+- Deletes all comments
+- Runs spellcheck
+- Reverts username back to original setting
+- Ensures that there are no research tags left in the document
+- If there are, it alerts you that there are still research tags and that the file is not ready yet.
 Once the file is ready, a dialog box will appear stating, "This document is client ready."
