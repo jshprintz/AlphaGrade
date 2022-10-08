@@ -1,4 +1,4 @@
-## AlphaGrade
+# AlphaGrade
 
 #### AlphaGrade is a series of macros written in VBA designed to facilitate and standardize the grading process for QAs scoring transcriptionists.
 
@@ -28,20 +28,22 @@
 ### Using Macros
 On the *View* tabe, you'll see a *Macros* button. By clicking on the button, you'll see the available macros. You can double click or click run to use them.
 
-#### QA Comments
+---
+
+## QA Comments
 QA Comments serves as a way to both uniform the grading comments, so that all QAs will be delivering consistent feedback to TRs in a consistent manner, and to allow for quick grading based upon the grading calculator. When running the program, the default is at minor mishear, but the user can select from any of the content or formatting errors. 
 
 ![QA Comments](https://i.imgur.com/7TbxoDRl.png)
 
-#### QA Checklist
+## QA Checklist
 QA Checklist works together with QA Comments. It also offers several standalone features. 
 
 ![QA Checklist](https://i.imgur.com/DcVutEFl.png)
 
-#### Tag Count
+### Tag Count
 Tag Count will tell you the total number of inaudibles, guesses, crosstalks, foreign tags, and research tags in any file.
 
-#### Pre Grade
+### Pre Grade
 The TRs are given a macro that serves to clean up their work before submitting. If they fail to use that macro, Pre Grade will essentially do all of those processes and a few more. 
 - Eliminates instances of two spaces that start a sentence
 - Replaces straight quotes with curly quotes
@@ -55,7 +57,7 @@ The TRs are given a macro that serves to clean up their work before submitting. 
 
 Since the TRs are expected to run this macro prior to submitting, when they don’t run it, all changes will be marked against their final score. After running Pre Grade, a dialog box will appear on the right detailing if any points have been deducted. Since the TRs are expected to run their macro, the large majority of the time their score will stay at 100. 
 
-#### Post Grade
+### Post Grade
 After you are finished reviewing the transcript, Post Grade will calculate all of the scoring for you. It will start with the Pre Grade score and then it will subtract all of the major errors and minor errors. It will also work off the following grade system for determining cleared inaudibles/guesses:
 
     > 1-3 = 0
@@ -64,7 +66,7 @@ After you are finished reviewing the transcript, Post Grade will calculate all o
 
 (Example: Eight cleared inaudibles would be a deduction of -1.75. Zero deducted for the first three, -0.25 each for inaudibles four, five, and six, and then -0.5 each for seven and eight.)
 
-#### Client Ready
+### Client Ready
 The Client Ready macro is designed to prepare a document to be ready for submission to the client. Client Ready is to be used after the split is uploaded and graded. Client Ready performs a number of functions:
 - Accepts all edits and turns off trackchanges
 - Deletes all comments
