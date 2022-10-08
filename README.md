@@ -36,7 +36,7 @@ QA Comments serves as a way to both uniform the grading comments, so that all QA
 #### QA Checklist
 QA Checklist works together with QA Comments. It also offers several standalone features. 
 
-![QA Checklist](https://i.imgur.com/DcVutEFb.png)
+![QA Checklist](https://i.imgur.com/DcVutEFl.png)
 
 #### Tag Count
 Tag Count will tell you the total number of inaudibles, guesses, crosstalks, foreign tags, and research tags in any file.
